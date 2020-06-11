@@ -62,7 +62,7 @@ export default [
       esModule: false,
       dir: "dist/iife",
       format: "iife",
-      name: "QuarkByHuz", //BaseByOrbit
+      name: "SpineByHuz",
       exports: "named",
       globals: {
         react: "React",
@@ -102,7 +102,7 @@ export default [
     output: {
       dir: "dist/@editor/iife",
       format: "iife",
-      name: "QuarkByHuz", //BaseByOrbit
+      name: "SpineByHuz", //BaseByOrbit
       exports: "named",
     },
     plugins: [

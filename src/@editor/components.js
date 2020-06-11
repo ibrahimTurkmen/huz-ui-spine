@@ -2,8 +2,8 @@ export default (editor, opt = {}) => {
   const c = opt;
   const dc = editor.DomComponents;
 
-  addType("QuarkCardByHuz", { page: "1" });
-
+  addType("SpineCardByHuz", { page: "1" });
+  
   function addType(type, config) {
     dc.addType(type, {
       isComponent: (el) => {
