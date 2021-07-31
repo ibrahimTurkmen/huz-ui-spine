@@ -7,24 +7,25 @@
     "dist/*"
   ],
   "scripts": {
-    "storybook": "start-storybook -p 9009",
+    "storybook": "start-storybook -s ./@editor -p 9009",
     "build-storybook": "build-storybook -c .storybook -o .out",
     "build": "rollup --config",
     "watch": "rollup --config --watch --environment DEVELOPMENT",
     "deploy": "npm install && npm run build && npm publish --access public"
   },
   "peerDependencies": {
+    "@material-ui/core": "^4.4.2",
+    "i18next": "^19.4.3",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
-    "@material-ui/core": "^4.4.2",
+    "react-i18next": "^11.3.5",
     "react-redux": "^7.2.0",
-    "redux": "^4.0.5",
-    "i18next": "^19.4.3",
-    "react-i18next": "^11.3.5"
+    "redux": "^4.0.5"
   },
   "dependencies": {
     "@babel/runtime": "^7.6.0",
     "@byhuz/huz-ui-project": "^0.2.40",
+    "@byhuz/spine-ts": "^0.1.1",
     "@material-ui/core": "^4.4.2",
     "i18next": "^19.4.3",
     "react": "^16.9.0",

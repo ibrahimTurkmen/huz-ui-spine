@@ -1,0 +1,9 @@
+@import url("http://esotericsoftware.com/files/spine-player/3.8/spine-player.css");
+
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  padding: 24px;
+}

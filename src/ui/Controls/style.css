@@ -1,0 +1,15 @@
+.controls-container {
+  padding: 30px;
+  text-align: center;
+}
+.slider-wrp {
+  margin-top: 50px;
+}
+
+.btn-container {
+  margin-top: 50px;
+}
+
+.animation-btn {
+  margin: 10px !important
+}
